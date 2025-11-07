@@ -7,18 +7,18 @@
     <link href="../output.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="bg-primary text-black px-4 py-2 flex items-center justify-between">
+    <nav class="bg-blue-300 text-black px-4 py-2 flex items-center justify-between">
   <div class="flex items-center space-x-2">
-    <img src="/public/logo.png" alt="Logo" class="h-8">
+    <img src="../public/img/Logo_IPEMALIS.png" alt="Logo" class="h-10 w-10">
     <span class="font-bold text-xl text-yellow-500">navigation bar</span>
   </div>
   <ul class="flex gap-6">
-    <li><a href="/" class="hover:text-yellow-400">Beranda</a></li>
+    <li><a href="../../public/index.php" class="hover:text-yellow-400">Beranda</a></li>
     <li class="relative group">
       <a href="#" class="hover:text-yellow-400">Profil</a>
       <ul class="absolute hidden group-hover:block bg-white text-black shadow-lg rounded mt-2">
-        <li><a href="/tentang-kami">Tentang Kami</a></li>
-        <li><a href="/struktur">Struktur</a></li>
+        <li><a href=" ">Tentang Kami</a></li>
+        <li><a href="../src/views/members.php">Struktur Organisasi</ahref=></li>
         <li><a href="/anggota">Anggota</a></li>
       </ul>
     </li>

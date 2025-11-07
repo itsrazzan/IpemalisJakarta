@@ -12,6 +12,7 @@ $action = $_GET['action'] ?? '';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Utama Organisasi</title>
     <link href="output.css" rel="stylesheet"> <!-- Path absolut dari root project untuk CSS Tailwind -->
+
 </head>
 <body>
 <p class=" text-blue-500 text-3xl ">Halaman Utama</p>
